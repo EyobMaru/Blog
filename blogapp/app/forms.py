@@ -59,3 +59,5 @@ class NewUserForm(UserCreationForm):
         if password1 and password2 and password1 != password2:
             raise forms.ValidationError("Password don't match")
         return password2
+
+
