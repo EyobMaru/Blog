@@ -60,3 +60,4 @@ class NewUserForm(UserCreationForm):
             raise forms.ValidationError("Password don't match")
         return password2
 
+
